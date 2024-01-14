@@ -37,4 +37,5 @@ dismissMsg.addEventListener("click", () => {
   dismissMsg.parentNode.style.display = "none";
   box.style.display = "flex";
   form.reset();
+  validateEmail.innerHTML = "";
 });
